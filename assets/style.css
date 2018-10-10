@@ -1,0 +1,344 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.section{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0%;
+}
+.section.heroSection{
+    width: 100%;
+    background-image: url("img/hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 917px;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    margin: 0% auto;
+    padding: 0% 160px;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+.menu{
+    float: right;
+}
+.logo{
+    float: left;
+    margin-top: 35px;
+}
+.header{
+    width: 100%;
+    height: 125px;
+    background-color: white;
+}
+.menu ul{
+    list-style-type: none;
+    margin-top: 56px; 
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 30px;
+    box-sizing: border-box;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #474747;
+    padding: 56px 23px 53px;
+    box-sizing: border-box;
+}
+.menu ul li a:hover{
+    color: white;
+    background-color: #59c45a
+}
+.menu ul li a.active{
+    color: white;
+    background-color: #59c45a
+}
+.smallContainer{
+    display: inline-block;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+.heroP{
+    padding-top: 60px;
+    color: white;
+    font-size: 22px;
+}
+.smallContainer h1{
+    padding-top: 250px;
+    color: white;
+    font-size: 68px;
+}
+.smallContainer a{
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    display: inline-block;
+    padding: 23px 47px;
+    text-decoration: none;
+    color: white;
+    background-color: #59c45a;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+.smallContainer a:hover{
+    background-color: #46b347;
+    transition-duration: 0.4s;
+}
+.smallContainer h2{
+    margin-top: 100px;
+    margin-bottom: 5px;
+    color: #59c45a;
+    font-size: 28px;
+}
+.favs{
+    margin-top: 100px;
+    width: 50%;
+    float: left;
+}
+.img{
+    width: 50%;
+    float: left;
+}
+.content{
+    width: 50%;
+    float: right;
+    text-align: left;
+}
+.content span{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+.content p{
+    font-size: 14px;
+    color: #959595;
+}
+.favrobaleSection{
+    margin-bottom: 100px;
+    background-color: white;
+}
+.section.serviceSection{
+    margin: 0% auto;
+    padding: 0%;
+    height: auto;
+}
+.sContainer{
+    width: 100%;
+    height: auto;
+}
+.sImg{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+.sContent{
+    width: 50%;
+    height: auto;
+    float: right;
+    padding-bottom: 48px;
+    box-sizing: border-box;
+    background-color: #efeeee;
+}
+.sContent h2{
+    color: #59c45a;
+    margin-bottom: 0%;
+    margin-top: 60px;
+}
+.serviceImg{
+    float:left;
+    width:100%;
+    height:100%;
+}
+.row{
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+}
+.text{
+    color: #959595;
+    font-size: 14px;
+}
+.lineS{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.tourSection{
+    margin-bottom: 100px;
+    display: inline-block;
+}
+.tourSection h2{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    color: #59c45a;
+}
+.lineT{
+    margin-top: 5px;
+    margin-bottom: 80px;
+}
+.tImg{
+    float:left;
+    width:25%;
+    height:100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.tourSection a{
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    display: inline-block;
+    padding: 23px 47px;
+    text-decoration: none;
+    color: white;
+    background-color: #59c45a;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+.tourSection a:hover{
+    background-color: #46b347;
+    transition-duration: 0.4s;
+}
+.contactSection{
+    padding-top: 100px;
+    background-color: #efeeee;
+    display: inline-block;
+    padding-bottom: 200px;
+}
+.contactSection h2{
+    color: #959595;
+    font-size: 28px;
+    margin-bottom: 60px;
+    display: inline-block;
+}
+.leftSide{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.leftSide {
+    font-size: 14px;
+    color: #959595;
+    text-align: left;
+}
+.leftSide img{
+    margin-bottom: 25px;
+}
+.rightSide{
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+}
+input{
+    width: 500px;
+    font-size: 14px;
+}
+input[type=text] {
+    color: #b0afaf;
+    padding: 12px 20px;
+    margin-bottom: 45px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #b0afaf;
+    background-color: #efeeee; 
+}
+input[type=text]::placeholder{
+    color: #b0afaf;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #b0afaf;
+    background-color: #efeeee;
+    resize: none;
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+textarea::placeholder{
+    color: #b0afaf;
+}
+.contactWays{
+    margin-top: 38px;
+    box-sizing: border-box;
+}
+.contactWays p{
+    margin-top: 0px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    color: #9b9b9b;
+}
+.contactWays span{
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.contactWays i{
+    color: #ed7e01;
+}
+.rightSide a{
+    margin-top: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    display: inline-block;
+    padding: 20px 55px;
+    text-decoration: none;
+    color: white;
+    background-color: #59c45a;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+.rightSide a:hover{
+    background-color: #46b347;
+    transition-duration: 0.4s;
+}
+.rightSide a span{
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.social{
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+}
+.social a{
+    margin-right: 10px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 3px;
+    background-color: #c9c9c9;
+    transition: 0.4s;
+}
+.social a.fb:hover{
+    background-color: #3B5998;
+    transition: 0.4s;
+}
+.social a.g:hover{
+    background-color: #DB4437;
+    transition: 0.4s;
+}
+.social a.tw:hover{
+    background-color: #1DA1F2;
+    transition: 0.4s;
+}
+.social a.in:hover{
+    background-color: #0077B5;
+    transition: 0.4s;
+}
