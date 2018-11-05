@@ -4,231 +4,270 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/style.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <title>TRAVEL</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Document</title>
 </head>
 <body>
+    <!-- navBar Satrts -->
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link active" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TOUR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOTEL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CULINARY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+       <!-- <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+            <li class="nav-item">
+                <a class="nav-link" href="##">hello</a>
+            </li>
+        </ul>-->
+      </nav>
+    </div>
+    <!-- Hero Section Starts -->
+    <div class="bg">
+        <div class="landing-text text-light">
+            <h1>Đảo Cát Bà</h1>
+            <p class="col-md-6 text-turncate offset-md-3 col-sm-6 offset-sm-3 mb-3 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus id nemo nihil aut doloribus voluptatum commodi expedita</p>
+            <a href="#" class="badge badge-primary mt-3">BOOKING TOUR</a>
+        </div>
+    <!-- Hero Section Ends -->
+    </div>
+    <!-- Favorable Section Starts -->
+    <div class="container my-5">
+        <h2 class="text-center my-5 text-uppercase">favrorable</h2>
+        <!-- Row Starts -->
+        <div class="row mb-5">
+            <div class="col-md-3 col-sm-6 img-fluid rounded mb-3 mb-md-3 text-center">
+                <img src="assets/img/fav1.png" class="favImage" alt="">
+            </div>
+            <div class="col-md-3 col-sm-6 favText">
+                <p class="mainText">Sed ut perspiciatis unde omnis iste natus
+                    error sit voluptatem accusantium.</p>
+                <p class="subText">Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+            </div>
+            <div class="col-md-3 col-sm-6 img-fluid rounded mb-3 mb-md-3 text-center">
+                <img src="assets/img/fav2.png" class="favImage" alt="">
+            </div>
+            <div class="col-md-3 col-sm-6 favText">
+                <p class="mainText">Sed ut perspiciatis unde omnis iste natus
+                    error sit voluptatem accusantium.</p>
+                <p class="subText">Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+            </div>
+            <div class="col-md-3 col-sm-6 img-fluid rounded mb-3 mb-md-3 text-center">
+                <img src="assets/img/fav3.png" class="favImage" alt="">
+            </div>
+            <div class="col-md-3 col-sm-6 favText">
+                <p class="mainText">Sed ut perspiciatis unde omnis iste natus
+                    error sit voluptatem accusantium.</p>
+                <p class="subText">Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+            </div>
+            <div class="col-md-3 col-sm-6 img-fluid rounded mb-3 mb-md-3 text-center">
+                <img src="assets/img/mountain.png" class="favImage" alt="">
+            </div>
+            <div class="col-md-3 col-sm-6 favText">
+                <p class="mainText">Sed ut perspiciatis unde omnis iste natus
+                    error sit voluptatem accusantium.</p>
+                <p class="subText">Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+            </div>
+        </div>
+        <!-- Row Ends -->
+    </div>
+    <!-- Favorable Section Ends -->
+    <!-- Services Section Starts -->
+    <div class="container-fluid my-5">
+            <div class="row serviceB">
+                <div class="col-md-6">
+                    <img class="img-fluid rounded mb-3 mb-md-0 image" src="assets/img/service.png" alt="">
+                </div>
+                <div class="col-md-6 text-center mt-5">
+                    <h2>SERVICE</h2>
+                    <div class="row mt-3">
+                        <div class="col-md-6 my-2">
+                            <i class="fas fa-utensils serviceI"></i>
+                            <p class="serviceP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, fugiat! Blanditiis eaque doloremque nulla moles</p>
+                        </div>
+                        <div class="col-md-6 my-2">
+                            <i class="far fa-building serviceI"></i>
+                            <p class="serviceP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, fugiat! Blanditiis eaque doloremque nulla moles</p>
+                        </div>
+                        <div class="col-md-6 my-2">
+                            <i class="fas fa-umbrella-beach serviceI"></i>
+                            <p class="serviceP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, fugiat! Blanditiis eaque doloremque nulla moles</p>
+                        </div>
+                        <div class="col-md-6 my-2">
+                            <i class="fas fa-bus serviceI"></i>
+                            <p class="serviceP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, fugiat! Blanditiis eaque doloremque nulla moles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- Services Section Ends -->
+    <!-- Tour Section Starts -->
+    <div class="container my-5 text-center">
+        <h2>TOUR</h2>
+        <div class="row mt-5 text-center">
+            <div class="col-md-3 col-sm-6 img-fluid rounded mb-3">
+                <div class="tourimg">
+                    <img src="assets/img/tour1.png"  alt="">
+                    <div class="tourLink">
+                        <a href="##" target='_blank' class="btn btn-outline-success visit">Visit</a>
+                    </div>
+                </div>   
+            </div>
+            <div class="col-md-3 col-sm-6 img-fluid rounded mb-3 ">
+                <div class="tourimg">
+                    <img src="assets/img/tour2.png"  alt="">
+                    <div class="tourLink">
+                        <a href="##" target='_blank' class="btn btn-outline-success visit">Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 img-fluid rounded mb-3 ">
+                <div class="tourimg">
+                    <img src="assets/img/tour3.png"  alt="">
+                    <div class="tourLink">
+                    <a href="##" target='_blank' class="btn btn-outline-success visit">Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 img-fluid rounded mb-3 ">
+                <div class="tourimg">
+                    <img src="assets/img/tour4.png"  alt="">
+                    <div class="tourLink">
+                        <a href="##" target='_blank' class="btn btn-outline-success visit">Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 img-fluid rounded mb-3 ">
+                <div class="tourimg">
+                    <img src="assets/img/tour5.png"  alt="">
+                    <div class="tourLink">
+                        <a href="##" target='_blank' class="btn btn-outline-success visit">Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 img-fluid rounded mb-3 ">
+                <div class="tourimg">
+                    <img src="assets/img/tour6.png"  alt="">
+                    <div class="tourLink">
+                        <a href="##" target='_blank' class="btn btn-outline-success visit">Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 img-fluid rounded mb-3 ">
+                <div class="tourimg">
+                    <img src="assets/img/tour7.png"  alt="">
+                    <div class="tourLink">
+                        <a href="##" target='_blank' class="btn btn-outline-success visit">Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 img-fluid rounded mb-3 ">
+                <div class="tourimg">
+                    <img src="assets/img/tour8.png"  alt="">
+                    <div class="tourLink">
+                        <a href="##" target='_blank' class="btn btn-outline-success visit">Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 img-fluid rounded mb-3">
+                <div class="tourimg">
+                    <img src="assets/img/tour9.png"  alt="">
+                    <div class="tourLink">
+                        <a href="##" target='_blank' class="btn btn-outline-success visit">Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 img-fluid rounded mb-3">
+                <div class="tourimg">
+                    <img src="assets/img/tour10.png"  alt="">
+                    <div class="tourLink">
+                        <a href="##" target='_blank' class="btn btn-outline-success visit">Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 img-fluid rounded mb-3">
+                <div class="tourimg">
+                    <img src="assets/img/tour11.png"  alt="">
+                    <div class="tourLink">
+                        <a href="##" target='_blank' class="btn btn-outline-success visit">Visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 img-fluid rounded mb-3">
+                <div class="tourimg">
+                    <img src="assets/img/tour12.png"  alt="">
+                    <div class="tourLink">
+                        <a href="##" target='_blank' class="btn btn-outline-success visit">Visit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="badge badge-primary mt-5 serviceButton">See More</a>
+    </div>
+    <!-- Tour Section Ends -->
+    <!-- Contact Section Starts -->
+    <div class="container-fluid mt-5 py-5 text-center contactBack">
+        <h2 id="contact">CONTACT</h2>
         <div class="container">
-            <div class="header">
-                <div class="nav">
-                    <div class="logo">
-                        <img src="assets/img/logo.png" alt="">
+            <div class="row my-4">
+                <div class="col-md-6 col-sm-12 text-left">
+                    <img src="assets/img/logo.png" alt="">
+                    <p class="contactP my-4">Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia 
+                        non Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>            
+                        <span><i class="fas fa-map-marker-alt"></i>So 188 Nguyen Xien, Thanh Xuan, Ha Noi</span>                      
+                        <span><i class="fas fa-phone-square"></i>+84 985 234 812</span>                     
+                        <span><i class="fas fa-envelope"></i>Huuluong.arc@gmail.com</span>
+                        <span class="website"><i class="fas fa-globe"></i><a href="##">kientructrinhgia.vn</a></span>
+                    <div class="social mt-5">
+                        <a class="fb" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a class="g" href="https://plus.google.com"><i class="fab fa-google-plus-g"></i></a>
+                        <a class="tw" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a class="in" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                    <div class="menu">
-                        <ul>
-                            <li><a href="index.html" class="active">HOME</a></li>
-                            <li><a href="##">TOUR</a></li>
-                            <li><a href="##">HOTEL</a></li>
-                            <li><a href="##">CULINARY</a></li>
-                            <li><a href="##">CONTACT</a></li>
-                        </ul>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-lg mb-3" placeholder="Your name">
+                        <input type="email" class="form-control form-control-lg my-5" placeholder="Enter email">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Email"></textarea>
+                        <a href="#" class="badge badge-primary mt-5 send">Send</a>
                     </div>
-                    <div class="clear"></div>
                 </div>
             </div>
-        </div>
-    <div class="section heroSection">
-        <div class="smallContainer">
-            <h1>DISCOVER</h1>
-            <P class="heroP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                <br>ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                <br>tempor incididunt ut labore et dolore magna aliqua.</P>
-            <a href="##">BOOKING TOUR</a>
-        </div>
-    </div>
-    <div class="section favrobaleSection">
-        <div class="smallContainer">
-            <h2>FAVROBALE</h2>
-            <img class="line" src="assets/img/lineshape.png" alt="">
-            <div class="clear"></div>
-            <div class="favs">
-                <div class="img">
-                    <img src="assets/img/fav1.png" alt="">
-                </div>
-                
-                <div class="content">
-                    <span>Sed ut perspiciatis unde omnis iste natus
-                         <br>error sit voluptatem accusantium.</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit<br>
-                       Modi iste sed nulla dignissimos architecto eos voluptatum! <br>
-                       Quae ab, ea culpa consectetur omnis doloribus perferendis! <br>
-                       Soluta sint ullam nam quae quos?</p>
-                </div>
-                <div class="clear"></div>
-            </div>
-            <div class="favs">
-                <div class="img">
-                    <img src="assets/img/fav2.png" alt="">
-                </div>
-                <div class="content">
-                    <span>Sed ut perspiciatis unde omnis iste natus
-                         <br>error sit voluptatem accusantium.</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit<br>
-                       Modi iste sed nulla dignissimos architecto eos voluptatum! <br>
-                       Quae ab, ea culpa consectetur omnis doloribus perferendis! <br>
-                       Soluta sint ullam nam quae quos?</p>
-                </div>
-                <div class="clear"></div>
-            </div>
-            <div class="favs">
-                <div class="img">
-                    <img src="assets/img/fav3.png" alt="">
-                </div>
-                <div class="content">
-                    <span>Sed ut perspiciatis unde omnis iste natus
-                         <br>error sit voluptatem accusantium.</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit<br>
-                       Modi iste sed nulla dignissimos architecto eos voluptatum! <br>
-                       Quae ab, ea culpa consectetur omnis doloribus perferendis! <br>
-                       Soluta sint ullam nam quae quos?</p>
-                </div>
-                <div class="clear"></div>
-            </div>
-            <div class="favs">
-                <div class="img">
-                    <img src="assets/img/mountain.png" alt="">
-                </div>
-                <div class="content">
-                    <span>Sed ut perspiciatis unde omnis iste natus
-                         <br>error sit voluptatem accusantium.</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit<br> 
-                       Modi iste sed nulla dignissimos architecto eos voluptatum!<br>
-                       Quae ab, ea culpa consectetur omnis doloribus perferendis!<br>
-                       Soluta sint ullam nam quae quos?</p>
-                </div>
-                <div class="clear"></div>
-            </div>
-            <div class="clear"></div>
-        </div>
-
-    </div>
-    <div class="section serviceSection">
-        <div class="sContainer">
-            <div class="clear"></div>
-            <div class="sImg">
-                <img class="serviceImg" src="assets/img/service.png" alt="">
-            </div>
-            <div class="sContent">
-                <h2>SERVICE</h2>
-                <img class="lineS" src="assets/img/lineshape.png" alt="">
-                <div class="clear"></div>
-                <div class="row">
-                    <div class="right"></div>
-                    <div class="icon">
-                        
-                        <i class="fas fa-utensils"></i>
-                    </div>
-                    <div class="text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-                           Nesciunt itaque ea ipsam minus enim adipisci, blanditiis<br>
-                           aliquid quia sed at, esse unde obcaecati iusto voluptatibus<br>
-                           facilis aut non quisquam dolorem.</p>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="row">
-                    <div class="icon">
-                            
-                            <i class="fas fa-building"></i>
-                    </div>
-                    <div class="text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-                           Nesciunt itaque ea ipsam minus enim adipisci, blanditiis<br>
-                           aliquid quia sed at, esse unde obcaecati iusto voluptatibus<br>
-                           facilis aut non quisquam dolorem.</p>
-                    </div>
-                        <div class="clear"></div>
-                    </div>
-                    <div class="row">
-                            <div class="icon">
-                                    <i class="fas fa-umbrella-beach"></i>
-                            </div>
-                            <div class="text">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-                                   Nesciunt itaque ea ipsam minus enim adipisci, blanditiis<br>
-                                   aliquid quia sed at, esse unde obcaecati iusto voluptatibus<br>
-                                   facilis aut non quisquam dolorem.</p>
-                            </div>
-                                <div class="clear"></div>
-                            </div>
-                            <div class="row">
-                                    <div class="icon">
-                                            <i class="fas fa-truck"></i>
-                                    </div>
-                                    <div class="text">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-                                           Nesciunt itaque ea ipsam minus enim adipisci, blanditiis<br>
-                                           aliquid quia sed at, esse unde obcaecati iusto voluptatibus<br>
-                                           facilis aut non quisquam dolorem.</p>
-                                    </div>
-                                        <div class="clear"></div>
-                                    </div>
-                <div class="clear"></div>
-            </div>
-            <div class="clear"></div>
         </div>
     </div>
-    <div class="section tourSection">
-        <div class="container">
-            <h2>TOURS</h2>
-            <img class="lineT" src="assets/img/lineshape.png" alt="">
-            <div class="clear"></div>
-            <div class="tRow">
-                <img class="tImg" src="assets/img/tour1.png" alt="">
-                <img class="tImg" src="assets/img/tour2.png" alt="">
-                <img class="tImg" src="assets/img/tour3.png" alt="">
-                <img class="tImg" src="assets/img/tour4.png" alt="">
-                <div class="clear"></div>
-            </div>
-            <div class="tRow">
-                <img class="tImg" src="assets/img/tour5.png" alt="">
-                <img class="tImg" src="assets/img/tour6.png" alt="">
-                <img class="tImg" src="assets/img/tour7.png" alt="">
-                <img class="tImg" src="assets/img/tour8.png" alt="">
-                <div class="clear"></div>
-            </div>
-            <div class="tRow">
-                <img class="tImg" src="assets/img/tour9.png" alt="">
-                <img class="tImg" src="assets/img/tour10.png" alt="">
-                <img class="tImg" src="assets/img/tour11.png" alt="">
-                <img class="tImg" src="assets/img/tour12.png" alt="">
-                <div class="clear"></div>
-            </div>
-            <a href="##">SEE MORE</a>
-        </div>
-    </div>
-    <div class="section contactSection">
-        <h2>CONTACT</h2>
-        <div class="container">
-            <div class="leftSide">
-                <img src="assets/img/logo.png" alt="">
-                <p>Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.<br> 
-                   Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,<br> 
-                   adipisci velit, sed quia non Sed ut perspiciatis unde omnis iste natus error sit<br> 
-                   voluptatem accusantium doloremque laudantium.</p>
-                <div class="contactWays">
-                    <p><i class="fas fa-map-marker-alt"></i><span>So 188 Nguyen Xien, Thanh Xuan, Ha Noi</span></p>
-                    <p><i class="fas fa-phone-square"></i><span>+84 985 234 812</span></p>
-                    <p><i class="fas fa-envelope"></i><span>Huuluong.arc@gmail.com</span></p>
-                    <p><i class="fas fa-globe"></i><span>kientructrinhgia.vn</span></p>
-                </div>
-                <div class="social">
-                   <a class="fb" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-                   <a class="g" href="https://plus.google.com"><i class="fab fa-google-plus-g"></i></a>
-                   <a class="tw" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-                   <a class="in" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-            <div class="rightSide">
-                <input type="text" placeholder="YOUR NAME">
-                <input type="text" placeholder="EMAIL">
-                <textarea name="" id="" cols="68" rows="10" placeholder="EMAIL"></textarea>
-                <a href="##">SEND<span><i class="fas fa-envelope"></i></span></a>
-            </div>
-            <div class="clear"></div>
-        </div>
-        </div>
+    <!-- Contact Section Ends -->
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
